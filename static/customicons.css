@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "icon"; /* Project id 2878519 */
+  src:url('/static/myicon.ttf') format('truetype');
+}
+
+.icon {
+  font-family: "icon" !important;
+	width: 1em; 
+	height: 1em;
+	fill: currentColor;
+	overflow: hidden;
+}

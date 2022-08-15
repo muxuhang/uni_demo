@@ -1,0 +1,67 @@
+{
+	"pages": [{
+		"path": "pages/home/index",
+		"style": {
+			"navigationBarTitleText": "MPOC"
+		}
+	},{
+		"path": "pages/market/index",
+		"style": {
+			"navigationBarTitleText": "Market"
+		}
+	},{
+		"path": "pages/calendar/index",
+		"style": {
+			"navigationBarTitleText": "日历"
+		}
+	},{
+		"path": "pages/user/index",
+		"style": {
+			"navigationBarTitleText": "Mine"
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+			"color": "#999999",
+			"selectedColor": "#333333",
+			"borderStyle": "black",
+			"backgroundColor": "#ffffff",
+			"iconfontSrc":"static/fonts/iconfont.ttf",
+	    "list": [{
+	    		"pagePath": "pages/home/index",
+	    		"text": "Home",
+					"iconfont": { 
+						"text": "\ue6c5",
+						"selectedText": "\ue6c5",
+						"color": "#999999"
+					}
+	    	}, 
+				{
+					"pagePath": "pages/market/index",
+					"text": "Market",
+					"iconfont": { 
+						"text": "\ue6f7",
+						"selectedText": "\ue6f7",
+						"color": "#999999"
+					}
+				}, 
+				
+				{
+	    		"pagePath": "pages/user/index",
+	    		"text": "Mine",
+					"iconfont": {
+						"text": "\ue702",
+						"selectedText": "\ue702",
+						"color": "#999999"
+					}
+	    	}]
+	  }
+}
